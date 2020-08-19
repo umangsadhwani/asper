@@ -1,0 +1,20 @@
+@font-face{
+  font-family: japfont;
+  src: url(Moyko.ttf);
+}
+@font-face{
+  font-family: japf;
+  src: url(go3v2.ttf);
+}
+@font-face{
+	font-family: tagfont;
+	src:url(Old Japanese.otf);
+}
+@font-face{
+	font-family: kor ;
+	src: url(Korean_calligraphy.ttf);
+}
+@font-face{
+	font-family: mor;
+	src:url(Moranke.ttf);
+}

@@ -1,0 +1,434 @@
+
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+  background-image: url(circlesback.jpg);
+ 
+}
+
+p {
+
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Hind, sans-serif;
+  color: black   ;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.navbar{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+nav{
+background-color: #4F3025;
+height: 50px;
+
+}
+nav ul{
+	text-align: center;
+	padding-top: 10px;
+}
+nav ul li{
+	color: #FFFACD;
+	display: inline-block;
+	line-height: 30px;
+	text-align: center;
+	font-size: 22px;
+    font-weight: 500;
+    font-family: mor, sans-serif;
+    margin-right: 5%;
+}
+
+a:focus, a:hover, a:active {
+  outline: 0;
+  color: #CB725C;
+  text-decoration: none;
+}
+li a {
+  font-family: mor, sans-serif;
+  color: #FFFACD;
+  outline: 0;
+  text-decoration: none;
+}
+
+
+
+#home1{
+  align-content: center;
+  padding: 10% 30% 10% 30%;
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+  hr{
+    color: #F0E68C;
+    height: 3px;
+    background-color: #F0E68C;
+  }
+
+.sublogom{
+  color: #FFFACD;
+  text-align: center;
+  font-family: kor;
+  font-size: 3em;
+}
+
+.sublogo{
+  color: #FFFACD;
+  text-align: center;
+  font-family: mor;
+  font-size: 4em;
+}
+#home2{
+  text-align: center;
+  padding: 5%;
+  width: 100%;
+  background-image: url(whiteback2.jpg);
+  border:10px solid white;
+  clear: both;
+  
+}
+
+#home2 p{
+  font-size: 20px;
+  font-family: japfont;
+  
+  /*font-family: "Comic Sans MS", cursive, sans-serif;*/
+}
+#aboutus{
+   padding: 5%;
+  width: 100%;
+  
+}
+.space{
+  clear: both;
+  height: 40px;
+}
+#hh1{
+  font-family: japfont;
+  text-align: center;
+  color:  #FFFACD;
+}
+#menu1{
+  padding: 1% 10% 10% 10%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+}
+table p{
+  color:white;
+}
+table tr td h3{
+  text-transform: capitalize;
+}
+
+table{
+  margin-top: 2%;
+}
+
+table tr td{
+  width: 50%;
+  height: 100%; 
+  float: left;
+  color: white;
+  }
+  .menuitem table tr{
+    background: rgba(172,89,62,0.5);
+    border:1px solid black;
+  }
+  
+  .fooditem{
+    padding: 30px 10px 10px 10px;
+    
+    border-radius: 10px;
+  }
+.menuitem{
+  width: 50%;
+  float: left;
+}
+.aboutimg{
+ 
+  height: 400px; 
+  width: 60%;
+  float: left;
+  
+}
+.aboutimgp{
+  border:20px solid white;
+ 
+  background-image: url(whiteback.jpg);
+  height: 400px; 
+  width: 40%;
+  float: left;
+  background-size: cover;
+}
+.aboutimgp p{
+  padding:  10%;
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: 600;
+}
+.log{
+  text-align: center;
+}
+
+.booka{
+  padding: 0% 10% 10% 10%;
+  clear: both;
+  
+}
+.forma{
+  width: 60%;
+  color: black;
+  background-image: url(whiteback2.jpg) ;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+  padding: 2%;
+  border: 25px  solid white ;
+ 
+}
+.forma h3{
+  font-family: hind,sans-serif;
+  font-weight: 400;
+}
+
+
+.item{
+  text-align: center;
+  margin: 10px;
+  color: black;
+  font-size: 22px;
+
+}
+.inpu{
+  width: 300px;
+  height: 30px;
+}
+
+button{
+  width: 100px;
+  height: 30px;
+}
+
+
+#bokt{
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  width: 200px;
+  padding: 5px;
+  font-size: 23px;
+  height: 40px;
+  border:1px solid black;
+  background-color:#4F3025; 
+}
+#bokt:hover{
+  background-color: #DC9F83;
+  color: black;
+  text-shadow: 1px brown;
+}
+
+.con{
+  background-image:url(whiteback2.jpg); ;
+  border:10px solid white ;
+  width:50%;
+  float: left;
+  text-align: center;
+  padding: 1%;
+}
+
+footer{
+  text-align: center;
+  background-color: #4F3025;
+   color: #FFFACD;
+}
+footer p{
+  color: #FFFACD;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+.aboutimgp p{
+  font-size: 16px;
+}
+.sublogom{
+  font-size: 2em;
+}
+#home1{
+  padding: 15% 20% 15% 20%;
+}
+.sublogo{
+  font-size: 3em;
+}
+.forma{
+  width: 80%;
+  color: black;
+  background-image: url(whiteback2.jpg) ;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  border: 15px  solid white ;
+ 
+}
+.forma h3{
+  font-family: hind,sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+}
+@media(min-width: 450px) and (max-width: 767px){
+
+nav ul li{
+  margin-right: 2%;
+}
+.sublogom{
+  font-size: 2em;
+}
+
+#home1{
+  padding: 20% 20% 20% 20%;
+}
+.sublogo{
+  font-size: 2em;
+}
+.aboutimg{
+  margin-bottom: 10px;
+ width: 100%;
+  height: 400px; 
+  
+
+  
+}
+.aboutimgp{
+  margin-bottom: 10px;
+  border:20px solid white;
+  width: 100%;
+  height: 400px; 
+  
+
+}
+#aboutus{
+  text-align: center;
+  width: 100%;
+}
+.menuitem{
+  width: 100%;
+}
+.forma{
+  width: 100%; 
+  border: 15px  solid white ;
+
+}
+.item{
+  font-size: 16px;
+}
+.con{
+  
+  border:5px solid white ;
+  width:100%;
+  text-align: center;
+  padding: 2%;
+}
+
+}
+
+@media(max-width: 449px){
+  .sublogom{
+  font-size: 2em;
+}
+
+#home1{
+  padding: 40% 10% 20% 10%;
+}
+.sublogo{
+  font-size: 2em;
+}
+.aboutimg{
+  margin-bottom: 10px;
+ width: 100%;
+  height: 350px; 
+  
+
+  
+}
+.aboutimgp{
+  margin-bottom: 10px;
+  border:15px solid white;
+  width: 100%;
+  height: 350px; 
+}
+.aboutimgp p{
+  font-size: 14px;
+}
+
+#aboutus{
+  text-align: center;
+  width: 100%;
+}
+.menuitem{
+  width: 100%;
+}
+.forma{
+  width: 100%; 
+  border: 8px  solid white ;
+
+}
+.item{
+  font-size: 16px;
+}
+.con{
+  
+  border:5px solid white ;
+  width:100%;
+  text-align: center;
+  padding: 2%;
+}
+.inpu{
+  width: 180px;
+  height: 20px;
+}
+nav{
+background-color: #4F3025;
+height: 80px;
+
+}
+nav ul li{
+  font-size: 18px;
+  margin-right: 7%;
+}
+
+#bokt{
+  width: 180px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
