@@ -142,7 +142,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 }
 .about{
   background-image: url(about.jpg);
-  background-size: 100% 720px;
+  background-size: cover;
 }
 /* slider */
 #slider{
@@ -173,7 +173,7 @@ animation:slider 20s infinite linear;
   min-height: 100vh;
   padding: 40px;
   background-image:url(about.jpg);
-  background-size: 100% 720px; 
+  background-size: cover; 
 }
 .container{
   max-width: 800px;
