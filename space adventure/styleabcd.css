@@ -18,7 +18,7 @@ body{
 }
 .spaceback{
   background-image: url(shak2.jpg);
-    background-size: 100% 900px;
+    background-size: cover;
 }
 
 .space{
