@@ -1,0 +1,135 @@
+
+a.brnd{
+	color:black;
+	font-size:20px;
+	font-weight: 700;
+}
+a.abc{
+	font-size: 18px;
+	color:grey;
+}
+a.abc:hover{
+
+	color:black;
+}
+
+a.abcm{
+	background-color: blue;
+	color: white;
+	border-radius: 50px;
+}
+
+a.abcm:hover{
+	background-color: darkblue;
+}
+
+.purplebg{
+	background:url(img/bg3.jpg);
+	background-size: cover;
+	clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 100% 90%);
+}
+.home2{
+	background-color: rgba(0,0,0,0.5);
+}
+
+.start{
+	background-color:white ;
+	color: purple;
+	font-size: 12px;
+	border-radius: 30px;
+}
+.middle{
+	color:white;
+	font-size: 42px;
+}
+.lspace{
+	line-height: 50px;
+}
+ 
+.end p{
+	font-size: 20px;
+	color:#DDDDDD;
+}
+.form{
+	border-radius: 20px;
+}
+.formh{
+	background-color: #F4F4F4;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.lab{
+	font-size: 100%;
+}
+
+.inp{
+	border-radius: 50px;
+}
+
+.findus{
+	background-color: #eff3f9;
+	clip-path:polygon(0% 10%, 100% 0%, 100% 90%,0% 100%);
+}
+.fin{
+	font-size: 38px;
+	font-weight: 500;
+}
+
+.start2{
+	background-color: #B7A0CE;
+	font-size: 12px;
+}
+.des{
+	font-size: 20px;
+	width: 60%;
+}
+.round{
+	border-radius: 50%;
+}
+
+.p{
+	background-color: #B7A0CE;
+	width: 70px;
+	height: 70px;
+}
+.q{
+	background-color:#93CFD6;
+	width: 70px;
+	height: 70px;
+}
+.s{
+	background-color:#F6BABF;
+	width: 70px;
+	height: 70px;
+}
+.card{
+	background-color: white;
+	box-shadow: 2px 2px 2px 2px #D6D6D6 ;
+	border-radius: 5px;
+}
+.pc{
+	color: purple;
+}
+.qc{
+	color: green;
+}
+.rc{
+	color: blue;
+}
+.sc{
+	color:#E8B83F;
+}
+.con{
+	font-size: 18px;
+}
+.con2{
+	font-size: 20px;
+}
+@media(max-width: 991px){
+	.des{
+		width:100%;
+	}
+	.findus{
+		clip-path:polygon(0% 5%, 100% 0%, 100% 95%,0% 100%);
+	}
+}
